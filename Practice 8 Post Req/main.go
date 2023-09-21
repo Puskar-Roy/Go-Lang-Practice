@@ -19,17 +19,16 @@ func performPostReq() {
 		panic(err)
 	}
 	defer response.Body.Close()
-	res , err := ioutil.ReadAll(response.Body);
+	res, err := ioutil.ReadAll(response.Body)
 	if err != nil {
 		panic(err)
 	}
-	data:= string(res);
-	fmt.Println(data);
+	data := string(res)
+	fmt.Println(data)
 
 }
 
 func main() {
-	fmt.Println("Hello Word")
 	performPostReq()
 
 }
