@@ -1,4 +1,4 @@
-module github.com/Puskar-Roy/practice11
+module github.com/Puskar-Roy/serveHome
 
 go 1.21.1
 
